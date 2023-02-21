@@ -101,6 +101,14 @@ function findAndReplace(all = false) {
   }
 }
 
+document.getElementById("replaceTerm")
+  .addEventListener("keyup", function (event) {
+    event.preventDefault();
+    if (event.key === "Enter") {
+      document.getElementById("replaceButton").click();
+    }
+  });
+
 // this function is activated on mouseup after user has highlighted text
 function addShareTool(a, previousSelection) {
   // if annotation mode on
