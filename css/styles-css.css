@@ -10,6 +10,7 @@
     --primary-text: #1a1916;
     --body-bg: #fafafa;
     --body-color: #555;
+    --playbackrate-color: black;
     --link-color: #222;
     --link-color-hover: #000;
     --drop-bg: #f5f5f5;
@@ -42,6 +43,7 @@
     --transcript-ol: ;
     --select-bg: #25282a;
     --icon-color: #8f9295;
+    --playbackrate-color: white;
     --drop-bg: #3f4447;
     --selected-blue: #487089;
     --selected-red: #9f5b58;
@@ -155,6 +157,14 @@ div .controls {
 .green-audio-player, .controls {
     background-color: var(--nav-bg);
     color: var(--body-color) !important; 
+}
+
+#playbackrate-icon {
+    color: var(--playbackrate-color) !important
+}
+
+.playback-rate-option {
+    color: black;
 }
 
 .pin {
